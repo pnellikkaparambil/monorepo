@@ -12,7 +12,6 @@
   ],
   "scripts": {
     "dev:web": "yarn workspace @monorepo/web run dev",
-    "dev:ng": "yarn workspace @monorepo/web-angular run start",
-    "dev": "yarn workspaces run dev"
+    "dev:ng": "yarn workspace @monorepo/web-angular run start"
   }
 }
