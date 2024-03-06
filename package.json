@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/pnellikkaparambil/monorepo.git",
+  "author": "Prasanth NV <pnellikkaparambil@opentrends.net>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:static": "yarn workspace static run dev"
+  }
+}
