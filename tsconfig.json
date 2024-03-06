@@ -11,6 +11,10 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ui/*": ["./packages/ui/*"],
+      "@web/*": ["./apps/web/*"],
+      "@types/*": ["./packages/types/*"]
+    }
   }
 }

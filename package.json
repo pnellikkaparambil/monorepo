@@ -11,6 +11,8 @@
     "apps/*"
   ],
   "scripts": {
-    "dev:static": "yarn workspace static run dev"
+    "dev:web": "yarn workspace @monorepo/web run dev",
+    "dev:ng": "yarn workspace @monorepo/web-angular run start",
+    "dev": "yarn workspaces run dev"
   }
 }
